@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../fpga_dsp_project.gen/sources_1/ip/fir_interpolator/sim/fir_interpolator.vhd" \
+"../../../../fpga_dsp_project.gen/sources_1/ip/fir_decimator/sim/fir_decimator.vhd" \
+
+# Do not sort compile order
+nosort
